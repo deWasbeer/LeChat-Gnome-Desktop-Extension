@@ -23,11 +23,11 @@ To install the ChatGPT Gnome Desktop Extension, clone this repo, cd into the ext
 <br>
 <br>`DO NOT RUN THE FOLLOWING COMMANDS AS SUDO`
 ```ocaml
-git clone hhttps://github.com/deWasbeer/LeChat-Gnome-Desktop-Extension && cd ChatGPT-Gnome-Desktop-Extension && make install
+git clone https://github.com/deWasbeer/LeChat-Gnome-Desktop-Extension && cd LeChat-Gnome-Desktop-Extension && make install
 ```
 
 To uninstall it. Run `make uninstall`
 ```ocaml
-git clone https://github.com/deWasbeer/LeChat-Gnome-Desktop-Extension && cd ChatGPT-Gnome-Desktop-Extension && make uninstall
+git clone https://github.com/deWasbeer/LeChat-Gnome-Desktop-Extension && cd LeChat-Gnome-Desktop-Extension && make uninstall
 ```
 
