@@ -11,11 +11,7 @@ Gnome just became even more powerful thanks to LeChat now being available from t
  <br>
  
 Screenshots:
- 
-### TO-DO & INFO:
-- Minor bug fixes and overall performance.
-- Fix bug with window positioning
-- Improve the hide/show window mechanism, preserving the state of the window when hidden
+![Screenshot from Le Chat](https://github.com/user-attachments/assets/bfa09da5-6995-41cd-bb26-c675bd30bfb4)
 
 ---
 
