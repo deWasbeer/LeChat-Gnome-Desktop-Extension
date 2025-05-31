@@ -25,19 +25,25 @@ function prepareCookieStorage() {
 function createWindow(x, y) {
     log('Creating window');
     const appWindow = new Gtk.Window({
-        type: Gtk.WindowType.TOPLEVEL,
-        //type: null, //Gtk.WindowPosition.POPUP,
+        type: Gtk.WindowType.POPUP, // Use POPUP or consider utility window type
         default_width: 500,
         default_height: 800,
-        title: 'LeChat'
+        title: 'LeChat',
+        decorated: false,
+        skip_taskbar_hint: true, // This hint suggests the window manager to not show the window in the taskbar
+        skip_pager_hint: true, // This hint suggests the window manager to not show the window in the pager
     });
 
     appWindow.set_decorated(false);
     appWindow.set_keep_above(true);
 
+    const panelHeight = 24;
+
     log(`Calculated position: x=${x}, y=${y}`);
 
-    appWindow.move(x, y);
+    appWindow.move(x, panelHeight);
+
+
 
     const scrolledWindow = new Gtk.ScrolledWindow();
     const cookieStorage = prepareCookieStorage();
