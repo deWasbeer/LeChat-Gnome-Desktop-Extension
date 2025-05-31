@@ -9,13 +9,12 @@ Gnome just became even more powerful thanks to LeChat now being available from t
 
  <br>
  
-![Screenshot from 2023-01-13 16-53-54](https://user-images.githubusercontent.com/21268783/212362417-1e06b82e-8abd-400a-9659-ba25611cd3ae.png)
-![Screenshot from 2023-01-13 16-57-31](https://user-images.githubusercontent.com/21268783/212363907-ce25b9d3-dda9-4586-ae66-29fc2a118831.png)
+screenshot
+screenshot
  
-### TO-DO & INFO:
-- Minor bug fixes and overall performance.
-- Fix bug with window positioning
-- Improve the hide/show window mechanism, preserving the state of the window when hidden
+### INFO:
+
+LeChat is a desktop extension for Gnome that allows you to access the LeChat AI assistant directly from your desktop. It provides a convenient way to ask questions and get answers without having to open a web browser or any other application.
 
 ---
 
@@ -23,21 +22,16 @@ Gnome just became even more powerful thanks to LeChat now being available from t
 
 #### On Gnome (WayLand)
 
-To install the ChatGPT Gnome Desktop Extension, clone this repo, cd into the ext dir. and run `make install`
+To install the LeChat Gnome Desktop Extension, clone this repo, cd into the ext dir. and run `make install`
 <br>
 <br>`DO NOT RUN THE FOLLOWING COMMANDS AS SUDO`
 ```ocaml
-git clone https://github.com/HorrorPills/ChatGPT-Gnome-Desktop-Extension && cd ChatGPT-Gnome-Desktop-Extension && make install
+git clone https://github.com/deWasbeer/LeChat-Gnome-Desktop-Extension && cd LeChat-Gnome-Desktop-Extension && make install
 ```
 
 To uninstall it. Run `make uninstall`
 ```ocaml
-git clone https://github.com/HorrorPills/ChatGPT-Gnome-Desktop-Extension && cd ChatGPT-Gnome-Desktop-Extension && make uninstall
+git clone https://github.com/deWasbeer/LeChat-Gnome-Desktop-Extension && cd LeChat-Gnome-Desktop-Extension && make uninstall
 ```
-
----
-
-### KNOWN ISSUES:
-- Window might appear in incorrect position
 
 

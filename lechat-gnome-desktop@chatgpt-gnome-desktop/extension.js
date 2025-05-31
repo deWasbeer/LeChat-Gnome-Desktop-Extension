@@ -4,7 +4,7 @@ import St from 'gi://St';
 import * as PopupMenu from 'resource:///org/gnome/shell/ui/popupMenu.js';
 import { Extension } from 'resource:///org/gnome/shell/extensions/extension.js';
 
-export default class ChatGPTGnomeDesktopExtension extends Extension {
+export default class LeChatGnomeDesktopExtension extends Extension {
     constructor(metadata) {
         super(metadata);
         this.button = null;
@@ -28,7 +28,7 @@ export default class ChatGPTGnomeDesktopExtension extends Extension {
 
         log("moje path ************");
         log(this.path)
-        let gicon = Gio.icon_new_for_string(this.path + "/icons/chatgpt_icon.png");
+        let gicon = Gio.icon_new_for_string(this.path + "/icons/lechat_icon.png");
         let icon = new St.Icon({ gicon: gicon });
 
         this.button.set_child(icon);

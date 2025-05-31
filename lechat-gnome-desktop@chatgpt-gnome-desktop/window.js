@@ -27,9 +27,9 @@ function createWindow(x, y) {
     const appWindow = new Gtk.Window({
         type: Gtk.WindowType.TOPLEVEL,
         //type: null, //Gtk.WindowPosition.POPUP,
-        default_width: 350,
-        default_height: 550,
-        title: 'ChatGPT'
+        default_width: 500,
+        default_height: 800,
+        title: 'LeChat'
     });
 
     appWindow.set_decorated(false);
@@ -47,7 +47,7 @@ function createWindow(x, y) {
 
     const webView = new WebKit2.WebView({ web_context: webContext });
     scrolledWindow.add(webView);
-    webView.load_uri('https://chat.openai.com/chat');
+    webView.load_uri('https://chat.mistral.ai/chat');
 
     appWindow.add(scrolledWindow);
     appWindow.connect('destroy', () => Gtk.main_quit());
