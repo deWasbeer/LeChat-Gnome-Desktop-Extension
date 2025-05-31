@@ -1,4 +1,4 @@
-<div align="center" style="background-color: lightgray; padding: 10px; opacity: 0.8;">
+<div align="center" style="background-color: lightgray; padding: 10px; opacity: 1.0;">
   <h1>LeChat Gnome Desktop Extension</h1>
   <img width="650" src="https://github.com/user-attachments/assets/02d0e313-facb-47ae-bde3-8813ecdb7868" alt="LeChat Extension">
 </div>
