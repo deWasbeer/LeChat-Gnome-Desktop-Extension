@@ -1,14 +1,10 @@
 <div align="center">
- <h1>ChatGPT Gnome Desktop Extension</h1>
+ <h1>LeChat Gnome Desktop Extension</h1>
  <img width="650" src="https://user-images.githubusercontent.com/119129086/213536496-c204f289-45d8-4d45-aaa9-ea72cec31143.png">
 </div>
 
 <h4><p align="center">
-Gnome just became even more powerful thanks to ChatGPT now being available from the comfort of your desktop, always ready to assist. <br>Save time on finding answers on the internet, you are now 1 click away.
-</p>
-
-<h2><p align="center">
-!!! WAYLAND IS NOW SUPPORTED !!!
+Gnome just became even more powerful thanks to LeChat now being available from the comfort of your desktop, always ready to assist. <br>Save time on finding answers on the internet, you are now 1 click away.
 </p>
 
  <br>
