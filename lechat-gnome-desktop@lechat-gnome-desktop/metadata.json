@@ -2,7 +2,7 @@
     "name": "LeChat for Gnome Desktop",
     "description": "Access LeChat From Your Gnome-Desktop!",
     "version": "1.0",
-    "uuid": "lechat-gnome-desktop@LeChat-gnome-desktop",
+    "uuid": "lechat-gnome-desktop@lechat-gnome-desktop",
     "shell-version": ["46","47","48"],
     "url": "https://github.com/deWasbeer/LeChat-Gnome-Desktop-Extension",
     "author": "Johan Antonissen"
